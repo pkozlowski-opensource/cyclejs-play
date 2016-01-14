@@ -1,21 +1,10 @@
 {
   "name": "cyclejs-play",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pkozlowski-opensource/cyclejs-play.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pkozlowski-opensource/cyclejs-play/issues"
-  },
-  "homepage": "https://github.com/pkozlowski-opensource/cyclejs-play#readme",
   "dependencies": {
     "@cycle/core": "^6.0.0",
     "@cycle/dom": "^8.0.0",
@@ -30,6 +19,6 @@
   },
   "scripts": {
     "build": "webpack",
-    "play": "webpack-dev-server"
+    "start": "webpack-dev-server"
   }
 }
